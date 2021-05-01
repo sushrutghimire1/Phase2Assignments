@@ -20,6 +20,7 @@ import org.springframework.context.annotation.Scope;
 //10. SpEL- @Value("#{T(java.lang.Math).random}")
 //11. @Profile("dev") VM Options: -D spring.profiles.active=dev
 //12. FactoryBeans
+//13. ApplicationContext.xml
 @Configuration
 public class AppConfig {
     @Bean(name = "speakerService")
