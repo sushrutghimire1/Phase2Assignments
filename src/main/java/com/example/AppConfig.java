@@ -21,6 +21,7 @@ import org.springframework.context.annotation.Scope;
 //11. @Profile("dev") VM Options: -D spring.profiles.active=dev
 //12. FactoryBeans
 //13. ApplicationContext.xml
+
 @Configuration
 public class AppConfig {
     @Bean(name = "speakerService")
